@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Frontend Mentor | Bento grid</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body
+    class="bg-[#f5f5f5] flex flex-col dm-sans-normal justify-center items-center h-screen "
+  >
+    <main class="flex h-screen w-[80vw] gap-5">
+      <section class="basis-1/5 flex flex-col gap-5">
+        <div
+          class="bg-[#faeee2] p-5 rounded-lg pb-20 gap-4 flex flex-col h-80rem"
+        >
+          <h4 class="dm-sans-medium text-3xl">
+            Create and schedule content
+            <span class="text-[#7651dc] italic">quicker.</span>
+          </h4>
+          <button
+            class="bg-[#ffcc69] rounded-3xl py-2 px-5 dm-sans-medium text-[#7651dc] pointer-events-none"
+          >
+            Create post <i class="fa-solid fa-diamond"></i>
+          </button>
+        </div>
+        <div
+          class="bg-[#ffcc69] flex flex-col p-5 rounded-lg items-start gap-10 tracking-[-0.15rem]"
+        >
+          <h4 class="text-3xl dm-sans-medium">
+            Write your <br />
+            content <br />using AI.
+          </h4>
+          <img
+            src="assets/images/illustration-ai-content.webp"
+            class="h-45"
+            alt=""
+          />
+        </div>
+      </section>
+      <section class="basis-4/5 flex flex-col gap-5">
+        <div class="flex basis-4/5 gap-5">
+          <div class="flex flex-col gap-5">
+            <div
+              class="bg-[#7651dc] basis-3/4 flex flex-col items-center justify-center py-6 gap-5 rounded-lg"
+            >
+              <h4 class="text-white text-center dm-sans-medium text-5xl">
+                Social Media <span class="text-[#ffcc69]">10x</span><br />
+                <i>Faster</i> with AI
+              </h4>
+              <img
+                src="./assets/images/illustration-five-stars.webp"
+                class="h-6"
+                alt=""
+              />
+              <p class="text-gray-200 text-sm">Over 4,000 5-star reviews</p>
+            </div>
+            <div class="flex gap-5 ">
+              <div
+                class="bg-white flex flex-col overflow-hidden p-5 rounded-lg"
+              >
+                <img
+                  src="./assets/images/illustration-multiple-platforms.webp"
+                  alt=""
+                  class="h-24 relative object-contain -right-16"
+                />
+                <h4 class="bg-white dm-sans-medium text-2xl">
+                  Manage <br />multiple <br />accounts and platforms.
+                </h4>
+              </div>
+              <div
+                class="bg-[#ffcc69] flex relative overflow-hidden flex-col items-start p-5 pb-[6.4rem] rounded-lg h-60"
+              >
+                <h4 class="dm-sans-medium text-2xl pr-16">
+                  Maintain a consistent <br />posting schedule.
+                </h4>
+                <img
+                  src="./assets/images/illustration-consistent-schedule.webp"
+                  alt=""
+                  class="absolute -bottom-20 h-44"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="bg-[#dcd1fc] flex flex-col basis-1/4 p-5 gap-5 rounded-lg overflow-hidden"
+          >
+            <h4 class="dm-sans-medium text-2xl tracking-[-0.10rem]">
+              Schedule to social media.
+            </h4>
+            <img
+              src="./assets/images/illustration-schedule-posts.webp"
+              class="h-64 w-auto relative -right-20"
+              alt=""
+            />
+            <p class="text-sm">
+              Optimize post timings to publish content at the perfect time for
+              your audience.
+            </p>
+          </div>
+        </div>
+        <div class="flex basis-1/5 gap-5">
+          <div
+            class="bg-white flex flex-col items-start h-fit p-5 rounded-lg gap-5 basis-1/4"
+          >
+            <h4 class="dm-sans-medium text-5xl">>56%</h4>
+            <p class="text-sm">faster audience growth</p>
+            <img
+              src="./assets/images/illustration-audience-growth.webp"
+              class="h-14"
+              alt=""
+            />
+          </div>
+          <div class="bg-[#7651dc] flex items-center p-5 rounded-lg basis-3/4">
+            <img
+              src="./assets/images/illustration-grow-followers.webp"
+              class="h-44"
+              alt=""
+            />
+            <h4 class="text-white dm-sans-medium text-3xl">
+              Grow followers with non-stop content.
+            </h4>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="attribution">
+      <!-- <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. -->
+      <!-- Coded by <a href="#">Your Name Here</a>. -->
+    </div>
+  </body>
+</html>

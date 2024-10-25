@@ -1,0 +1,15 @@
+.dm-sans-normal {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.dm-sans-medium {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  cursor: url("./assets/images/telegram-brands-solid.svg"), pointer;
+}
